@@ -10,7 +10,7 @@
 
 *DURATION*: 4 WEEKS
 
-*MENTOR*: NEELA SANTOSH
+*MENTOR*: Neela Santhosh Kumar
 
 ##This project involves designing a basic single page portfolio website using only HTML and CSS to effectively showcase a developer's projects, skills, and contact information. The primary goal is to create a clean, visually appealing, and responsive layout that works well across all devices, from desktops to smartphones.
 The website is structured into key sections including:
