@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Header (Navigation Bar) -->
+    <header>
+        <div class="logo">My Portfolio</div>
+        <div class="menu-toggle">&#9776;</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <img src="image/profile.png" alt="Profile Picture" class="about-img">
+            <div class="about-text">
+                <p>Hi, I'm a passionate web developer specializing in front-end and back-end development. I love creating interactive and visually appealing websites.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <div class="skill-bar">
+                    <div class="skill-fill"></div>
+                </div>
+                <span>Java</span>
+            </div>
+            <div class="skill">
+                <div class="skill-bar">
+                    <div class="skill-fill"></div>
+                </div>
+                <span>CSS</span>
+            </div>
+            <div class="skill">
+                <div class="skill-bar">
+                    <div class="skill-fill"></div>
+                </div>
+                <span>JavaScript</span>
+            </div>
+            <div class="skill">
+                <div class="skill-bar">
+                    <div class="skill-fill"></div>
+                </div>
+                <span>Python</span>
+            </div>
+            <div class="skill">
+                <div class="skill-bar">
+                    <div class="skill-fill"></div>
+                </div>
+                <span>C++</span>
+            </div>
+            <div class="skill">
+                <div class="skill-bar">
+                    <div class="skill-fill"></div>
+                </div>
+                <span>C</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photography & Videography -->
+    <section id="photo-video">
+        <h2>Creative Skills</h2>
+        <div class="photo-video-container">
+            <div class="photo-overlay"><img src="image/photo10.png" alt="Photography"></div>
+            <div class="photo-overlay"><img src="image/photo20.png" alt="Photography"></div>
+            <div class="photo-overlay"><img src="image/photo30.png" alt="Photography"></div>
+        </div>
+        <p>I use my photography and videography skills to enhance website aesthetics with high-quality images and videos.</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>Graduation:</strong> B.Sc. in Computer Science, XYZ University</p>
+        <p><strong>Post Graduation:</strong> M.Sc. in Software Engineering, ABC University</p>
+    </section>
+
+    <!-- Projects Section (Modern Slider) -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-slider">
+            <button class="prev" onclick="moveSlide(-1)">prev</button>
+            <div class="project-slides">
+                <div class="project-slide">
+                    <img src="image/Project1.png" alt="Project 1" class="project-image">
+                    <h3>Project 1</h3>
+                    <p>A web-based e-commerce platform.</p>
+                    <a href="#" class="btn">Live Demo</a>
+                    <a href="#" class="btn">GitHub</a>
+                </div>
+                <div class="project-slide">
+                    <img src="image/Project2.png" alt="Project 2" class="project-image">
+                    <h3>Project 2</h3>
+                    <p>Portfolio website with animations.</p>
+                    <a href="#" class="btn">Live Demo</a>
+                    <a href="#" class="btn">GitHub</a>
+                </div>
+                <div class="project-slide">
+                    <img src="image/Project3.png" alt="Project 3" class="project-image">
+                    <h3>Project 3</h3>
+                    <p>Interactive to-do list app.</p>
+                    <a href="#" class="btn">Live Demo</a>
+                    <a href="#" class="btn">GitHub</a>
+                </div>
+                <div class="project-slide">
+                    <img src="image/Project4.png" alt="Project 4" class="project-image">
+                    <h3>Project 4</h3>
+                    <p>AI-powered chatbot.</p>
+                    <a href="#" class="btn">Live Demo</a>
+                    <a href="#" class="btn">GitHub</a>
+                </div>
+            </div>
+            <button class="next" onclick="moveSlide(1)">next</button>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: developer@example.com</p>
+        <p>Phone: +123 456 7890</p>
+        <a href="#" class="btn">LinkedIn</a>
+        <a href="#" class="btn">GitHub</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Developer Portfolio. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
