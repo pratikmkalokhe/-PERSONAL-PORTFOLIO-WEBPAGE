@@ -26,3 +26,4 @@ This portfolio is a great starter project for beginner developers, helping them 
 
 #OUTPUT
 
+![Image](https://github.com/user-attachments/assets/2dff2b51-044a-44c1-bb4e-77367e01041c)
